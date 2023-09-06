@@ -1,0 +1,50 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 30px;
+  background-color: #ffff;
+}
+
+.card-heading {
+  font-size: 16px;
+  color: #171f46;
+}
+
+.card-description {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.card-img {
+  height: 50px;
+  align-self: flex-end;
+}
+
+@media (min-width: 768px) {
+  .card-1,
+  .card-3 {
+    margin-right: 25px;
+  }
+}
